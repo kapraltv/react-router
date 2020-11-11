@@ -1,0 +1,48 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    color: pink;
+    text-shadow: 2px 1px 1px #000;
+    margin: 0 auto; 
+    padding: 10px;
+    font-size: 30px;
+}
+
+.input-login {
+    width: 70%;
+    margin: 30px auto 0px auto;
+    padding: 3px;
+    font-size: 15px;
+}
+
+.input-password {
+    width: 70%;
+    margin: 10px auto; 
+    padding: 3px;
+    fontSize: 15px;
+}
+
+.btn-accessgame {
+    width: 70%;
+    padding: 5px 10px;
+    margin: 10px auto; 
+    opacity: .9;
+  
+    background: pink;
+    text-align: center;
+}
+
+.btn-accessgame:hover {
+   opacity: 1;
+   border: 3px solid blue;
+   font-weight: 600;
+}

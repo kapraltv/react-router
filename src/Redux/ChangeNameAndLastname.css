@@ -1,0 +1,27 @@
+.form-change {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: pink;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputchange, .result {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.btn-change {
+    padding: 10px;
+    width: 60%;
+}
+
+.btn-change:hover {
+    border: 2px solid blue;
+    font-weight: 700;
+}
+
